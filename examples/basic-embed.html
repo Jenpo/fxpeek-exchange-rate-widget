@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>FXpeek Exchange Rate Widget Demo</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        background: #f7f7f5;
+        color: #1a1a18;
+      }
+      main {
+        width: min(760px, calc(100% - 32px));
+        margin: 40px auto;
+      }
+      p {
+        color: #6b6b65;
+        line-height: 1.6;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>FXpeek Exchange Rate Widget Demo</h1>
+      <p>
+        This demo embeds the live FXpeek historical exchange rate widget for a
+        USD to IDR reference workflow.
+      </p>
+
+      <div
+        data-fxpeek-widget
+        data-from="USD"
+        data-to="IDR"
+        data-amount="100"
+        data-locale="en"
+      ></div>
+      <script async src="https://fxpeek.com/embed/fxpeek-widget.js"></script>
+    </main>
+  </body>
+</html>
