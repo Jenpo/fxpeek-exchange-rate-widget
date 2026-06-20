@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FXpeek Exchange Rate Widget</title>
+    <meta name="description" content="Embeddable historical exchange rate widget for finance blogs, spreadsheet templates, ecommerce notes, and dashboards.">
+    <link rel="canonical" href="https://jenpo.github.io/fxpeek-exchange-rate-widget/">
+    <style>
+      :root {
+        --ink: #15221e;
+        --muted: #52635d;
+        --line: #d6e1dc;
+        --surface: #f6faf8;
+        --accent: #0a735e;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        color: var(--ink);
+        background: #fff;
+      }
+      main {
+        width: min(960px, calc(100% - 32px));
+        margin: 0 auto;
+        padding: 56px 0;
+      }
+      h1 {
+        max-width: 820px;
+        margin: 0 0 18px;
+        font-size: clamp(34px, 6vw, 58px);
+        line-height: 1.03;
+        letter-spacing: 0;
+      }
+      h2 {
+        margin: 36px 0 12px;
+        font-size: 22px;
+      }
+      p,
+      li {
+        color: var(--muted);
+        font-size: 17px;
+        line-height: 1.7;
+      }
+      a {
+        color: var(--accent);
+        font-weight: 650;
+      }
+      .lead {
+        max-width: 780px;
+        font-size: 19px;
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 14px;
+        margin-top: 26px;
+      }
+      .tile {
+        display: block;
+        min-height: 124px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        padding: 18px;
+        background: var(--surface);
+      }
+      .tile strong {
+        display: block;
+        margin-bottom: 8px;
+        color: var(--ink);
+      }
+      pre {
+        overflow-x: auto;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        padding: 16px;
+        background: #10201b;
+        color: #ecf7f2;
+        font-size: 14px;
+        line-height: 1.6;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Embeddable historical exchange rate widget</h1>
+      <p class="lead">
+        Use the FXpeek widget when a blog, finance note, ecommerce guide, spreadsheet template, or dashboard
+        needs a small historical exchange-rate lookup surface.
+      </p>
+
+      <div class="grid">
+        <a class="tile" href="https://fxpeek.com/en/widget?utm_source=github_pages&utm_medium=site&utm_campaign=fxpeek_wave1_api_csv&utm_content=widget_pages_demo">
+          <strong>Live widget page</strong>
+          Try the hosted FXpeek widget and copy the embed snippet.
+        </a>
+        <a class="tile" href="https://fxpeek.com/en/api?utm_source=github_pages&utm_medium=site&utm_campaign=fxpeek_wave1_api_csv&utm_content=widget_pages_api">
+          <strong>API and CSV docs</strong>
+          Use JSON and CSV endpoints behind reporting workflows.
+        </a>
+        <a class="tile" href="https://fxpeek.com/en/answers/excel-spreadsheet-historical-rates?utm_source=github_pages&utm_medium=site&utm_campaign=fxpeek_wave1_api_csv&utm_content=widget_pages_spreadsheet_answer">
+          <strong>Spreadsheet answer hub</strong>
+          Excel, Google Sheets, CSV import, and reporting guidance.
+        </a>
+        <a class="tile" href="https://github.com/Jenpo/fxpeek-exchange-rate-widget">
+          <strong>GitHub repository</strong>
+          Embed example, script URL, and widget documentation.
+        </a>
+      </div>
+
+      <h2>Embed snippet</h2>
+      <pre><code>&lt;div
+  data-fxpeek-widget
+  data-from="USD"
+  data-to="IDR"
+  data-amount="100"
+  data-locale="en"
+&gt;&lt;/div&gt;
+&lt;script async src="https://fxpeek.com/embed/fxpeek-widget.js"&gt;&lt;/script&gt;</code></pre>
+
+      <h2>Good fit</h2>
+      <ul>
+        <li>Finance blog posts that need a small FX lookup tool.</li>
+        <li>Spreadsheet templates that explain historical currency conversion.</li>
+        <li>Ecommerce or travel guides with regional currency examples.</li>
+        <li>Dashboards that need a lightweight reference widget.</li>
+      </ul>
+
+      <p>
+        FXpeek rates are reference data for historical lookup, reporting, spreadsheet, and lightweight API workflows.
+        They are not transaction quotes or financial advice.
+      </p>
+    </main>
+  </body>
+</html>
