@@ -7,6 +7,7 @@ The widget is powered by FXpeek:
 - Widget page: https://fxpeek.com/en/widget?utm_source=github&utm_medium=repo&utm_campaign=fxpeek_wave1_api_csv&utm_content=exchange_rate_widget
 - Embed script: https://fxpeek.com/embed/fxpeek-widget.js
 - API docs: https://fxpeek.com/en/api?utm_source=github&utm_medium=repo&utm_campaign=fxpeek_wave1_api_csv&utm_content=exchange_rate_widget_api
+- Spreadsheet answer hub: https://fxpeek.com/en/answers/excel-spreadsheet-historical-rates?utm_source=github&utm_medium=repo&utm_campaign=fxpeek_wave1_api_csv&utm_content=widget_excel_sheets_answer
 - Annual FX report: https://fxpeek.com/en/reports/2026-historical-fx-reference?utm_source=github&utm_medium=repo&utm_campaign=fxpeek_wave1_api_csv&utm_content=exchange_rate_widget_report
 
 ## Quick Embed
@@ -38,6 +39,7 @@ The widget is powered by FXpeek:
 - Travel receipt history and old expense notes
 - Ecommerce settlement examples
 - Spreadsheet and accounting template pages
+- Excel and Google Sheets historical FX references
 - Regional currency comparison articles
 - Lightweight financial data documentation
 
