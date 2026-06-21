@@ -8,6 +8,12 @@ The widget is powered by FXpeek:
 - Embed script: https://fxpeek.com/embed/fxpeek-widget.js
 - API docs: https://fxpeek.com/en/api?utm_source=github&utm_medium=repo&utm_campaign=fxpeek_wave1_api_csv&utm_content=exchange_rate_widget_api
 - Spreadsheet answer hub: https://fxpeek.com/en/answers/excel-spreadsheet-historical-rates?utm_source=github&utm_medium=repo&utm_campaign=fxpeek_wave1_api_csv&utm_content=widget_excel_sheets_answer
+- Chinese widget page: https://fxpeek.com/zh/widget?utm_source=github&utm_medium=repo&utm_campaign=fxpeek_locale_widget&utm_content=zh_widget
+- Indonesian widget page: https://fxpeek.com/id/widget?utm_source=github&utm_medium=repo&utm_campaign=fxpeek_locale_widget&utm_content=id_widget
+- Vietnamese widget page: https://fxpeek.com/vi/widget?utm_source=github&utm_medium=repo&utm_campaign=fxpeek_locale_widget&utm_content=vi_widget
+- Thai widget page: https://fxpeek.com/th/widget?utm_source=github&utm_medium=repo&utm_campaign=fxpeek_locale_widget&utm_content=th_widget
+- Tagalog widget page: https://fxpeek.com/tl/widget?utm_source=github&utm_medium=repo&utm_campaign=fxpeek_locale_widget&utm_content=tl_widget
+- Localized API/CSV landing: https://fxpeek.com/zh/campaign/historical-fx-api?utm_source=github&utm_medium=repo&utm_campaign=fxpeek_locale_widget&utm_content=zh_campaign
 - Annual FX report: https://fxpeek.com/en/reports/2026-historical-fx-reference?utm_source=github&utm_medium=repo&utm_campaign=fxpeek_wave1_api_csv&utm_content=exchange_rate_widget_report
 
 ## Quick Embed
